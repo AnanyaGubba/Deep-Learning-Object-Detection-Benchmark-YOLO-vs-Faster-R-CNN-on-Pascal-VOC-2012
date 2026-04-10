@@ -1,5 +1,4 @@
-#  Object Detection Benchmark: Faster R-CNN vs YOLOv5 (Pascal VOC 2012)
-
+# Deep Learning Object Detection Benchmark: YOLO-V5 VS Faster R-CNN on Pascal VOC 2012
 ##  Objective
 
 This project implements and compares **Faster R-CNN (two-stage detector)** and **YOLOv5 (single-stage detector)** on the **Pascal VOC 2012 dataset**.
@@ -396,13 +395,17 @@ To ensure YOLOv5 vs Faster R-CNN comparison is meaningful:
 * Some overlapping detections in dense scenes
 
 ### 🔹 Sample Predictions (YOLO V5)
+![Project Logo](yolo_results_plots/sample_detection_yolo.jpeg)
 
-<img width="1698" height="633" alt="detection_results" src="https://github.com/user-attachments/assets/da162942-30bc-4ac0-a31a-c32a9203a74e" />
 
 ---
 
-### 🔹 Test Set Predictions
+### 🔹 Test Set Predictions (Faster R-CNN)
 
+![Project Logo](rcnn_results_plots/test_set_predictions.png)
+
+### 🔹 Test Set Predictions (YOLO V5)
+<img width="1698" height="633" alt="detection_results" src="https://github.com/user-attachments/assets/da162942-30bc-4ac0-a31a-c32a9203a74e" />
 
 
 
